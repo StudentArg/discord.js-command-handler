@@ -2,7 +2,7 @@ module.exports = {
 config: {
         name: "ping",
         category: "general",
-        noalias: [''],
+        aliases: [''],
         description: "Tiempo de respuesta del bot y la API de Discord.",
         usage: "",
   },
