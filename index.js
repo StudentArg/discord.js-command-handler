@@ -1,5 +1,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
+const config = require('./config/config.json');
+
 const fs = require('fs')
 
 client.config = {
@@ -46,4 +48,4 @@ if (message.author.bot) return
   }
 })
 
-client.login(client.config.token)
+client.login(config.token)
